@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="@string/infotextLiner"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/txtmen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="90dp"
+        android:text="Меняемое название"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/machovka_guitar"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonL"
+        android:layout_marginTop="40dp"
+        android:layout_width="310dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/zametki"
+
+        />
+    <Button
+        android:id="@+id/buttonL2"
+        android:layout_marginTop="1dp"
+        android:layout_width="310dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:text="назад"
+        android:onClick="decl"
+        />
+    <Button
+        android:id="@+id/buttonTransfer"
+        android:layout_marginTop="1dp"
+        android:layout_width="310dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:text="Переход в SecondActivity"
+        android:onClick="onClick"
+        />
+    <ImageView
+        android:id="@+id/dollarwing"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="150dp"
+        android:src="@drawable/dollar"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/comment"
+
+        />
+</LinearLayout>

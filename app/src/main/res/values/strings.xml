@@ -1,0 +1,10 @@
+<resources>
+    <string name="zametki">Добавить в заметки</string>
+    <string name="comment">Добавить комментарий</string>
+    <string name="infotextLiner">Информация о компании(Liner)</string>
+    <string name="infotextRelative">Информация о компании(Relative)</string>
+    <string name="infotextConstraint">Информация о компании(Constraint)</string>
+    <string name="todo">TODO</string>
+    <string name="guitPro">GuitPro</string>
+    <string name="app_name">MyApplication3</string>
+</resources>
